@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdellah Gourane | Data Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Interactive portfolio for Abdellah Gourane, Data Engineer and AI-focused Software Engineer."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-theme="light">
+    <div class="page-shell">
+      <div class="noise" aria-hidden="true"></div>
+      <div class="spotlight" aria-hidden="true"></div>
+
+      <header class="hero section">
+        <nav class="topbar">
+          <div class="topbar-main">
+            <div class="topbar-links">
+              <a href="#experience" data-i18n="nav_experience">Experience</a>
+              <a href="#skills" data-i18n="nav_skills">Skills</a>
+              <a href="#certifications" data-i18n="nav_certifications">Certifications</a>
+              <a href="#hobbies" data-i18n="nav_hobbies">Hobbies</a>
+              <a href="#contact" data-i18n="nav_contact">Contact</a>
+            </div>
+          </div>
+          <div class="topbar-actions">
+            <div class="lang-toggle" role="group" aria-label="Language switcher">
+              <button class="lang-option is-active" type="button" data-lang-choice="en" data-i18n="lang_en">English</button>
+              <button class="lang-option" type="button" data-lang-choice="fr" data-i18n="lang_fr">Français</button>
+            </div>
+            <div class="theme-toggle" role="group" aria-label="Theme switcher">
+              <button class="theme-option is-active" type="button" data-theme-choice="light" data-i18n="theme_light">Light</button>
+              <button class="theme-option" type="button" data-theme-choice="dark" data-i18n="theme_dark">Dark</button>
+            </div>
+          </div>
+        </nav>
+
+        <div class="hero-grid" id="top">
+          <section class="hero-copy glass">
+            <p class="eyebrow" data-i18n="hero_eyebrow">Data Engineer • AI Engineer • Oracle Experience</p>
+            <p class="lede" data-i18n="hero_lede">
+              With hands-on experience at Oracle, I work across Gen AI, data
+              engineering, analytics, and software delivery, with work spanning
+              SDK development, ETL workflows, reporting, and data-driven
+              products. I also started my PhD at INPT on March 30, 2026.
+            </p>
+
+            <div class="proof-list" aria-label="Professional summary">
+              <span class="proof-chip" data-i18n="proof_oracle">Oracle experience</span>
+              <span class="proof-chip" data-i18n="proof_phd">PhD at INPT</span>
+              <span class="proof-chip" data-i18n="proof_genai">Gen AI and data engineering</span>
+            </div>
+
+            <div class="workflow-scene glass" aria-hidden="true">
+              <div class="workflow-track">
+                <span class="workflow-pulse workflow-pulse-a"></span>
+                <span class="workflow-pulse workflow-pulse-b"></span>
+                <span class="workflow-pulse workflow-pulse-c"></span>
+              </div>
+              <div class="workflow-stages">
+                <div class="workflow-stage">
+                  <span class="workflow-dot"></span>
+                  <strong data-i18n="workflow_data">Data</strong>
+                  <small data-i18n="workflow_ingest">ingest</small>
+                </div>
+                <div class="workflow-stage">
+                  <span class="workflow-dot"></span>
+                  <strong data-i18n="workflow_pipeline">Pipeline</strong>
+                  <small data-i18n="workflow_transform">transform</small>
+                </div>
+                <div class="workflow-stage workflow-stage-core">
+                  <span class="workflow-core-ring"></span>
+                  <span class="workflow-dot"></span>
+                  <strong data-i18n="workflow_ai">AI</strong>
+                  <small data-i18n="workflow_reason">reason</small>
+                </div>
+                <div class="workflow-stage">
+                  <span class="workflow-dot"></span>
+                  <strong data-i18n="workflow_insight">Insight</strong>
+                  <small data-i18n="workflow_deliver">deliver</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="cta-row">
+              <a class="button primary" href="assets/ABDELLAH_GOURANE_CV_mini.pdf" target="_blank" rel="noreferrer">
+                <span data-i18n="cta_resume">Open Resume</span>
+              </a>
+              <a class="button secondary" href="#experience"><span data-i18n="cta_experience">My Experience</span></a>
+            </div>
+
+            <div class="contact-ribbon">
+              <a href="tel:+212701207503">
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.89.33 1.76.63 2.59a2 2 0 0 1-.45 2.11L8 9.91a16 16 0 0 0 6.09 6.09l1.49-1.29a2 2 0 0 1 2.11-.45c.83.3 1.7.51 2.59.63A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </span>
+                <span>+212 701 207 503</span>
+              </a>
+              <a href="mailto:gouraneabdellah@gmail.com">
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 6h16v12H4z"></path>
+                    <path d="m4 7 8 6 8-6"></path>
+                  </svg>
+                </span>
+                <span>gouraneabdellah@gmail.com</span>
+              </a>
+              <a href="https://www.linkedin.com/in/abdellah-gourane" target="_blank" rel="noreferrer">
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5ZM.35 8h4.29v15.5H.35V8Zm6.84 0h4.11v2.11h.06c.57-1.08 1.97-2.22 4.06-2.22 4.35 0 5.15 2.86 5.15 6.58v9.03h-4.28v-8c0-1.91-.03-4.37-2.67-4.37-2.67 0-3.08 2.08-3.08 4.23v8.14H7.19V8Z"></path>
+                  </svg>
+                </span>
+                <span data-i18n="contact_linkedin_short">LinkedIn</span>
+              </a>
+            </div>
+          </section>
+
+          <aside class="hero-panel">
+            <div class="portrait-card glass">
+              <div class="portrait-halo"></div>
+              <a href="https://www.linkedin.com/in/abdellah-gourane" target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile">
+                <img src="assets/pic.jpg" alt="Abdellah Gourane portrait" class="portrait" data-i18n-alt="portrait_alt" />
+              </a>
+              <p class="portrait-name">Abdellah Gourane</p>
+              <div class="portrait-meta">
+                <p class="meta-label" data-i18n="personal_note_label">Personal Note</p>
+                <p class="meta-value" data-i18n="personal_note_value">I enjoy working where data, AI, and real impact come together.</p>
+              </div>
+            </div>
+
+            <div class="signal-grid">
+              <a class="signal glass signal-link" href="#certifications">
+                <span class="signal-value" data-count="4">0</span>
+                <span class="signal-label" data-i18n="signal_certifications">Certifications</span>
+              </a>
+              <a class="signal glass signal-link" href="#experience">
+                <span class="signal-value" data-count="4">0</span>
+                <span class="signal-label" data-i18n="signal_roles">Roles</span>
+              </a>
+              <a class="signal glass signal-link" href="#languages">
+                <span class="signal-value" data-count="3">0</span>
+                <span class="signal-label" data-i18n="signal_languages">Languages</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section class="section experience-section" id="experience">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="section_experience">Experience</p>
+          </div>
+
+          <div class="filter-row" aria-label="Experience filters">
+            <button class="chip" data-filter="all" data-i18n="filter_all">All</button>
+            <button class="chip" data-filter="software" data-i18n="filter_software">Software Engineering</button>
+            <button class="chip" data-filter="engineering" data-i18n="filter_engineering">Data Engineering</button>
+            <button class="chip" data-filter="analytics" data-i18n="filter_analytics">Data Analytics</button>
+            <button class="chip active" data-filter="genai" data-i18n="filter_genai">Gen AI</button>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-card glass is-active" id="experience-oracle" data-tags="software genai">
+              <div class="timeline-top">
+                <div>
+                  <p class="timeline-company">
+                    <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">Oracle</a>
+                  </p>
+                  <h3><a href="https://www.oracle.com/" target="_blank" rel="noreferrer" data-i18n="exp_oracle_title">Software Engineer • Gen AI SDK Development</a></h3>
+                  <div class="role-tags">
+                    <span data-i18n="filter_software">Software Engineering</span>
+                    <span data-i18n="filter_genai">Gen AI</span>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <span data-i18n="location_casablanca">Casablanca, Morocco</span>
+                  <span data-i18n="exp_oracle_date">Dec 2025 – Apr 2026</span>
+                </div>
+              </div>
+              <p data-i18n="exp_oracle_desc">
+                Collaborating on the development, optimization, and maintenance of
+                an internal Gen AI SDK, with a focus on robustness, scale, and
+                measurable quality.
+              </p>
+              <ul>
+                <li data-i18n="exp_oracle_b1">Extended SDK capabilities with new features and tooling.</li>
+                <li data-i18n="exp_oracle_b2">Improved performance, reliability, and technical support workflows.</li>
+                <li data-i18n="exp_oracle_b3">Ran benchmarks and comparative tests around RAG and NL2SQL scenarios.</li>
+              </ul>
+              <p class="stack-line">Python • SQL • LangFlow • LangChain • LangGraph • RAG • NL2SQL</p>
+            </article>
+
+            <article class="timeline-card glass" id="experience-netsuite" data-tags="">
+              <div class="timeline-top">
+                <div>
+                  <p class="timeline-company">
+                    <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">Oracle NetSuite</a>
+                  </p>
+                  <h3><a href="https://www.oracle.com/" target="_blank" rel="noreferrer" data-i18n="exp_netsuite_title">Intern • Data Science</a></h3>
+                  <div class="role-tags">
+                    <span data-i18n="tag_internship">Internship</span>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <span data-i18n="location_casablanca">Casablanca, Morocco</span>
+                  <span data-i18n="exp_netsuite_date">Feb 2025 – Sep 2025</span>
+                </div>
+              </div>
+              <p data-i18n="exp_netsuite_desc">
+                Worked on transaction automation and recurring-transaction
+                detection, combining scripting, synthetic data, and algorithm
+                refinement.
+              </p>
+              <ul>
+                <li data-i18n="exp_netsuite_b1">Automated transaction generation through SuiteScript.</li>
+                <li data-i18n="exp_netsuite_b2">Grouped and analyzed data to identify recurring candidates.</li>
+                <li data-i18n="exp_netsuite_b3">Improved detection performance and execution stability.</li>
+              </ul>
+              <p class="stack-line">SuiteScript • NetSuite • Python • Java</p>
+            </article>
+
+            <article class="timeline-card glass" id="experience-attijari" data-tags="analytics">
+              <div class="timeline-top">
+                <div>
+                  <p class="timeline-company">
+                    <a href="https://www.attijariwafabank.com/" target="_blank" rel="noreferrer">Attijariwafa Bank</a>
+                  </p>
+                  <h3><a href="https://www.attijariwafabank.com/" target="_blank" rel="noreferrer" data-i18n="exp_attijari_title">Intern • Data Analyst</a></h3>
+                  <div class="role-tags">
+                    <span data-i18n="filter_analytics">Data Analytics</span>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <span data-i18n="location_casablanca">Casablanca, Morocco</span>
+                  <span data-i18n="exp_attijari_date">Jul 2024 – Aug 2024</span>
+                </div>
+              </div>
+              <p data-i18n="exp_attijari_desc">
+                Focused on ETL tasks, reporting optimization, and KPI follow-up
+                across ODS, DWH, and Data Mart pipelines.
+              </p>
+              <ul>
+                <li data-i18n="exp_attijari_b1">Built ETL tasks for data movement across enterprise systems.</li>
+                <li data-i18n="exp_attijari_b2">Used SAP BusinessObjects for decision-ready reporting.</li>
+                <li data-i18n="exp_attijari_b3">Tracked KPIs to improve performance visibility and decisions.</li>
+              </ul>
+              <p class="stack-line">IBM DataStage • SAP BusinessObjects • IBM DB2 • DBeaver</p>
+            </article>
+
+            <article class="timeline-card glass" id="experience-tasmimweb" data-tags="engineering software">
+              <div class="timeline-top">
+                <div>
+                  <p class="timeline-company">
+                    <a href="https://www.tasmimweb.com/" target="_blank" rel="noreferrer">Groupe TasmimWeb</a>
+                  </p>
+                  <h3><a href="https://www.tasmimweb.com/" target="_blank" rel="noreferrer" data-i18n="exp_tasmim_title">Intern • Data Engineer</a></h3>
+                  <div class="role-tags">
+                    <span data-i18n="filter_engineering">Data Engineering</span>
+                    <span data-i18n="filter_software">Software Engineering</span>
+                  </div>
+                </div>
+                <div class="timeline-meta">
+                  <span data-i18n="location_casablanca">Casablanca, Morocco</span>
+                  <span data-i18n="exp_tasmim_date">Aug 2023</span>
+                </div>
+              </div>
+              <p data-i18n="exp_tasmim_desc">
+                Built a football-data extraction and transformation workflow, then
+                delivered a searchable dynamic website on top of it.
+              </p>
+              <ul>
+                <li data-i18n="exp_tasmim_b1">Extracted match data from a public website.</li>
+                <li data-i18n="exp_tasmim_b2">Cleaned and transformed datasets for usability.</li>
+                <li data-i18n="exp_tasmim_b3">Created a user-facing search experience for match discovery.</li>
+              </ul>
+              <p class="stack-line">Django • Selenium • HTML • CSS • Bootstrap • Beautiful Soup</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section skill-section" id="skills">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="section_capabilities">Capabilities</p>
+          </div>
+
+          <div class="skill-layout">
+            <article class="glass constellation-card">
+              <h3 data-i18n="section_technical_skills">Technical Skills</h3>
+              <div class="constellation">
+                <button class="node" data-skill="python" style="--x: 18%; --y: 18%">Python</button>
+                <button class="node" data-skill="sql" style="--x: 49%; --y: 12%">SQL</button>
+                <button class="node" data-skill="django" style="--x: 78%; --y: 24%">Django</button>
+                <button class="node" data-skill="ml" style="--x: 28%; --y: 44%" data-i18n="skill_node_ml">Machine Learning</button>
+                <button class="node" data-skill="rag" style="--x: 68%; --y: 42%">RAG</button>
+                <button class="node" data-skill="langchain" style="--x: 14%; --y: 68%">LangChain</button>
+                <button class="node" data-skill="langflow" style="--x: 38%; --y: 78%">LangFlow</button>
+                <button class="node" data-skill="n8n" style="--x: 58%; --y: 72%">n8n</button>
+                <button class="node" data-skill="datastage" style="--x: 82%; --y: 76%">IBM DataStage</button>
+              </div>
+              <div class="skill-inspector" aria-live="polite">
+                <div class="skill-inspector-head">
+                  <p class="meta-label" data-i18n="skill_context">Skill Context</p>
+                  <h4 class="skill-inspector-title" data-i18n="skill_touch">Touch a skill</h4>
+                </div>
+                <p class="skill-inspector-copy" data-i18n="skill_copy_default">
+                  Hover a skill on desktop or tap it on mobile to see where I used it.
+                </p>
+                <div class="skill-inspector-columns">
+                  <div>
+                    <span class="skill-list-label" data-i18n="skill_list_experience">Experience</span>
+                    <ul class="skill-list" id="skill-experience-list"></ul>
+                  </div>
+                  <div>
+                    <span class="skill-list-label" data-i18n="skill_list_projects">Projects</span>
+                    <ul class="skill-list" id="skill-project-list"></ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="glass strength-panel">
+              <h3 data-i18n="what_i_work_on">What I work on</h3>
+              <div class="strength-grid">
+                <div class="strength-card">
+                  <span class="strength-index">01</span>
+                  <h4 data-i18n="strength_1_title">Gen AI Engineering</h4>
+                  <p data-i18n="strength_1_desc">SDK work, RAG experiments, NL2SQL evaluation, and applied LLM workflows.</p>
+                </div>
+                <div class="strength-card">
+                  <span class="strength-index">02</span>
+                  <h4 data-i18n="strength_2_title">Data Engineering</h4>
+                  <p data-i18n="strength_2_desc">ETL pipelines, data transformation, workflow design, and automation.</p>
+                </div>
+                <div class="strength-card">
+                  <span class="strength-index">03</span>
+                  <h4 data-i18n="strength_3_title">Analytics</h4>
+                  <p data-i18n="strength_3_desc">Reporting, KPI tracking, business analysis, and decision-support data.</p>
+                </div>
+                <div class="strength-card">
+                  <span class="strength-index">04</span>
+                  <h4 data-i18n="strength_4_title">Software Delivery</h4>
+                  <p data-i18n="strength_4_desc">Python applications, web products, debugging, and production-oriented development.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section projects-section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="section_personal_projects">Personal Projects</p>
+          </div>
+
+          <article class="glass project-card" id="project-news-streaming-analysis">
+            <div class="project-top">
+              <div>
+                <p class="timeline-company" data-i18n="project_news_company">Spark Streaming Application</p>
+                <h3 data-i18n="project_news_title">Real-time data processing for live news subtitles</h3>
+              </div>
+              <span class="project-date" data-i18n="project_news_date">May 2024</span>
+            </div>
+            <p data-i18n="project_news_desc">
+              Extracted subtitles from a live YouTube news stream, consumed the
+              flow through Kafka, processed it with Spark Streaming, and used
+              LangChain in the pipeline.
+            </p>
+            <ul>
+              <li data-i18n="project_news_b1">Kafka and Spark Streaming for real-time ingestion and processing.</li>
+              <li data-i18n="project_news_b2">LangChain integration for language-model driven analysis.</li>
+              <li data-i18n="project_news_b3">Docker-based setup for Kafka, Spark, and Zookeeper services.</li>
+            </ul>
+            <div class="project-links">
+              <a class="button primary" href="https://github.com/Gouranegithub/News_Streaming_Analysis" target="_blank" rel="noreferrer">
+                <span data-i18n="project_view_repo">View Project Repository</span>
+              </a>
+            </div>
+          </article>
+        </section>
+
+        <section class="section credentials-section" id="languages">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="section_credentials">Credentials</p>
+          </div>
+
+          <div class="credentials-grid">
+            <article class="glass credential-card">
+              <h3 data-i18n="section_education">Education</h3>
+              <div class="education-track">
+                <div class="education-entry education-entry-current">
+                  <span class="education-year">2026</span>
+                  <div class="education-body">
+                    <p data-i18n="edu_phd_title">PhD at INPT</p>
+                    <span data-i18n="edu_phd_date">Started on Mar 30, 2026</span>
+                  </div>
+                </div>
+                <div class="education-entry">
+                  <span class="education-year">2022</span>
+                  <div class="education-body">
+                    <p data-i18n="edu_eng_title">Engineering Degree • Data Engineer</p>
+                    <span data-i18n="edu_eng_date">INPT, Rabat • Sep 2022 – Jun 2025</span>
+                  </div>
+                </div>
+                <div class="education-entry">
+                  <span class="education-year">2020</span>
+                  <div class="education-body">
+                    <p data-i18n="edu_cpge_title">Preparatory Classes • TSI</p>
+                    <span data-i18n="edu_cpge_date">CPGE Moulay Abdellah Safi • Sep 2020 – Jul 2022</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="glass credential-card">
+              <h3 data-i18n="section_languages">Languages</h3>
+              <div class="language-stack">
+                <div class="language-row">
+                  <span class="language-name" data-i18n="language_french">French</span>
+                  <span class="language-level" data-i18n="level_intermediate">Intermediate</span>
+                </div>
+                <div class="language-row">
+                  <span class="language-name" data-i18n="language_english">English</span>
+                  <span class="language-level" data-i18n="level_intermediate">Intermediate</span>
+                </div>
+                <div class="language-row">
+                  <span class="language-name" data-i18n="language_arabic">Arabic</span>
+                  <span class="language-level" data-i18n="level_native">Native</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section certifications-section" id="certifications">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="section_certifications">Certifications</p>
+          </div>
+
+          <div class="cert-grid">
+            <article class="glass cert-card">
+              <p class="feature-type">Oracle</p>
+              <div class="cert-list">
+                <a class="cert-link" href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=ADD767D84DA01EB69622F1AB66FB4FDDE8AFF7EDF09F457892267F8F47B32223" target="_blank" rel="noreferrer">
+                  OCI Generative AI Certified Professional
+                </a>
+                <a class="cert-link" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=0E10859CE5EC08BE64B8C49CFB7338F0B536D8ABCF7CCBC65D81C721A9D7C493" target="_blank" rel="noreferrer">
+                  OCI Certified AI Foundations Associate
+                </a>
+                <a class="cert-link" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=85C60C7DFD7A93D3A73B15E108E58AE3CC64AA537C93C0F6A6E723F4A04A07DE" target="_blank" rel="noreferrer">
+                  OCA Oracle Certified Associate, Java SE 8 Programmer
+                </a>
+              </div>
+            </article>
+
+            <article class="glass cert-card" id="cert-aws">
+              <p class="feature-type">AWS</p>
+              <div class="cert-list">
+                <a class="cert-link" href="https://www.credly.com/badges/72c139dc-18b0-4626-846f-0d9d832723c8" target="_blank" rel="noreferrer">
+                  AWS Certified Data Engineer Associate
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section hobbies-section" id="hobbies">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="section_hobbies">Hobbies & Activities</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="glass feature-card">
+              <p class="feature-type" data-i18n="hob_type_visual">Visual Work</p>
+              <h3><a href="https://drive.google.com/drive/folders/1WROwh4I3wSHb2ld4UxPFMFPSaQS6YNq8?usp=sharing" target="_blank" rel="noreferrer" data-i18n="hob_photo_title">Photography</a></h3>
+              <p data-i18n="hob_photo_desc">Selected visual work and photography collection.</p>
+            </article>
+
+            <article class="glass feature-card">
+              <p class="feature-type" data-i18n="hob_type_visual">Visual Work</p>
+              <h3><a href="https://drive.google.com/drive/folders/1zgEtg3bSQSdNhpenN_82eQdqTLTS8dTx?usp=sharing" target="_blank" rel="noreferrer" data-i18n="hob_video_title">Video Editing</a></h3>
+              <p data-i18n="hob_video_desc">Edited video work and portfolio samples.</p>
+            </article>
+
+            <article class="glass feature-card">
+              <p class="feature-type" data-i18n="hob_type_community">Community</p>
+              <h3><a href="https://www.instagram.com/casinpt/" target="_blank" rel="noreferrer">Club des Affaires Sociales INPT</a></h3>
+              <p data-i18n="hob_club_desc">Community involvement and social activities.</p>
+            </article>
+
+            <article class="glass feature-card">
+              <p class="feature-type" data-i18n="hob_type_volunteer">Volunteer Work</p>
+              <h3><a href="https://drive.google.com/file/d/1zqNgmlh-nzQ1dvB-RoG1z0RmY37vKgdt/view?usp=sharing" target="_blank" rel="noreferrer">CARAVANE</a></h3>
+              <p data-i18n="hob_caravane_desc">Volunteer project and related activity record.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="glass contact-card">
+            <div>
+              <p class="eyebrow" data-i18n="nav_contact">Contact</p>
+            </div>
+            <div class="contact-actions">
+              <a class="button secondary" href="tel:+212701207503">
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.89.33 1.76.63 2.59a2 2 0 0 1-.45 2.11L8 9.91a16 16 0 0 0 6.09 6.09l1.49-1.29a2 2 0 0 1 2.11-.45c.83.3 1.7.51 2.59.63A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </span>
+                <span>+212 701 207 503</span>
+              </a>
+              <a class="button secondary" href="mailto:gouraneabdellah@gmail.com">
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 6h16v12H4z"></path>
+                    <path d="m4 7 8 6 8-6"></path>
+                  </svg>
+                </span>
+                <span data-i18n="contact_email">Email Abdellah</span>
+              </a>
+              <a class="button secondary" href="https://github.com/Gouranegithub" target="_blank" rel="noreferrer">
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.72-4.04-1.41-4.04-1.41-.54-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.08 1.84 2.82 1.31 3.5 1 .1-.79.42-1.31.76-1.61-2.67-.31-5.48-1.33-5.48-5.93 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.56.12-3.25 0 0 1.01-.32 3.3 1.23a11.44 11.44 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.69.24 2.94.12 3.25.77.84 1.24 1.91 1.24 3.22 0 4.61-2.82 5.61-5.5 5.91.43.37.82 1.1.82 2.23v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"></path>
+                  </svg>
+                </span>
+                <span data-i18n="contact_github">View GitHub</span>
+              </a>
+              <a class="button secondary" href="https://www.linkedin.com/in/abdellah-gourane" target="_blank" rel="noreferrer">
+                <span class="button-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5ZM.35 8h4.29v15.5H.35V8Zm6.84 0h4.11v2.11h.06c.57-1.08 1.97-2.22 4.06-2.22 4.35 0 5.15 2.86 5.15 6.58v9.03h-4.28v-8c0-1.91-.03-4.37-2.67-4.37-2.67 0-3.08 2.08-3.08 4.23v8.14H7.19V8Z"></path>
+                  </svg>
+                </span>
+                <span data-i18n="contact_linkedin">View LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p data-i18n="footer_copyright">© 2026 Abdellah Gourane</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
